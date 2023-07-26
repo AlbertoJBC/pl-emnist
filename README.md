@@ -31,3 +31,6 @@ The project is divided into 6 Python files:
 * `dataset.py`: includes the class which defines the PyTorch Dataset using Lightning.
 * `trainer.py`: includes a function that returns the Trainer Lightning instance. This file might seem unnecessary, because it probably is. The purpose is to have the code as much modular as possible.
 * `callbacks.py`: includes the definition of a customized callback function using Lightning corresponding module.
+
+## Special mention
+The codes of this project are inspired by the PyTorch Lightning Introduction tutorials from [Aladdin Persson](https://www.youtube.com/@AladdinPersson). Special thanks to him for sharing his work and knowledge. 
