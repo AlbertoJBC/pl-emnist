@@ -1,4 +1,4 @@
-from torch import nn, argmax, optim
+from torch import nn, optim
 import torch.nn.functional as F
 import torchmetrics
 from torchmetrics import Metric
